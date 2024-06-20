@@ -1,0 +1,13 @@
+<!-- testng.xml -->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SpiceJet Test Suite">
+    <test name="SpiceJet Automation Tests">
+        <classes>
+            <class name="com.spicejet.tests.SignUpTest"/>
+            <class name="com.spicejet.tests.LoginTest"/>
+            <class name="com.spicejet.tests.FlightSearchTest"/>
+            <class name="com.spicejet.tests.FlightBookingTest"/>
+            <class name="com.spicejet.tests.BookingValidationTest"/>
+        </classes>
+    </test>
+</suite>
